@@ -1,5 +1,12 @@
-<div align="center">  
+<div align="center">
   <img src="./Images/bubbleid-dropheader.png" alt="Logo" style="width: 85%; max-width: 100%;">
 </div>
 
-This is an extension to BubbleID for droplet analysis. It uses the pretrained boiling bubble [BubbleID](https://github.com/cldunlap73/BubbleID) model for identifying droplets. This package includes the cropping of large impages and merging of cropped images. 
+This is an extension to BubbleID for droplet analysis. It uses the pretrained boiling bubble [BubbleID](https://github.com/cldunlap73/BubbleID) model for identifying droplets. This package includes the cropping of large impages and merging of cropped images.
+
+## Updates
+
+### 2026-01-13 - dannycurl02
+- Added CPU fallback for torch when CUDA is not available
+- Added file browser for weight and image file selection
+- Added error handling to skip cropping when errors occur 
